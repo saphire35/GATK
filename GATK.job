@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --time=3:30:00 # days-hh:mm:ss
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem-per-cpu=2625 # megabytes
+#SBATCH --partition=bio
+#SBATCH --output=slurm-%j.out
+#SBATCH --open-mode=append
+
+
+module --ignore-cache load Nextflow/21.08.0
+nextflow run main.nf --data='./data/data' --metadata='./data/metadata_2006.tsv' --reference='./data/IHEM_04380_LY1996_0339_1_reference_assembly.fasta' \
+--outdir='test2' --cpus=40 -resume --merged

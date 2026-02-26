@@ -1,0 +1,12 @@
+[2d/658a6f] process > QCClean (NG-A4828_IHEM_0438... [100%] 2 of 2, cached: 2 ✔
+[a4/12131f] process > IndexReference                 [100%] 1 of 1, cached: 1 ✔
+[f2/b6161a] process > BWAAlign (NG-A4828_IHEM_043... [100%] 2 of 2, cached: 2 ✔
+[80/5e2354] process > AddReadGroups (NG-A4828_IHE... [100%] 2 of 2, cached: 2 ✔
+[35/e1e2aa] process > MergeBams                      [100%] 1 of 1, cached: 1 ✔
+[15/11fce4] process > Dedup (merged_sample)          [100%] 1 of 1, cached: 1 ✔
+[12/e8812b] process > HaplotypeCaller (merged_sam... [100%] 1 of 1, cached: 1 ✔
+[bf/835840] process > HaplotypeCallerFreeBayes (m... [100%] 1 of 1, cached: 1 ✔
+[45/0e6ff1] process > GenotypeInterval (contig_46... [100%] 38 of 38, cached:...
+[8e/4b6e5e] process > ConcatVCFs                     [100%] 1 of 1, cached: 1 ✔
+[f8/b93050] process > CompareCallers (gatk_vs_fre... [100%] 1 of 1, cached: 1 ✔
+[d7/79d90d] process > RefineFilter (refine_filter)   [100%] 1 of 1, cached: 1 ✔
